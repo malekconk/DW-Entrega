@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/mediaqueries.css">
+    <title>about us</title>
+    <style>
+
+        #grilla{
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+                    grid-template-rows: auto;
+                    grid-template-areas: "sfiha kebbe"                                        
+                                        "falafel humus";
+                    background-color: goldenrod;
+                    row-gap: 10px;
+                    column-gap: 10px;
+                }
+
+
+        img {width: 100%;
+            height: 100%;
+            }
+
+        #foto1 { grid-area: sfiha;   
+
+            }
+
+        #foto2 { grid-area: kebbe;   
+
+            }
+
+        #foto3 { grid-area: falafel;   
+
+            }
+
+        #foto4 { grid-area: humus;   
+
+            }
+
+    </style>
+
+    </head>
+    <body>
+      
+        <header class="header">
+            
+            <div class="headerLogo">
+                <a href="../index.html"> <img src="../images/SHAM LOGO.jpg" alt="logoSham"></a>
+            </div>
+
+            <!--menu de navegacion-->
+            <nav class="headerMenu">
+                <ul>
+                    <li> <a href="../pages/home.html">Recetas</a></li>
+                    <li> <a href="../pages/products.html">Products</a></li>
+                    <li> <a href="../pages/about us.html">About Us</a></li>
+                    <li> <a href="../pages/contact.html">Contact</a> </li>
+                </ul>
+            </nav>    
+
+        </header>
+
+        <!--nombre del emprendimiento-->
+        <h1>Al Sham</h1>
+
+        <h2>Sabores de Oriente</h2>
+
+        <main>
+
+            <p class="cosito">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure fuga consectetur dolore magnam. Repellendus veniam consectetur facere iusto nam vel, est quae tempora provident beatae, et quas, accusantium distinctio exercitationem!
+            Eligendi facere corrupti aspernatur consequatur quis. Obcaecati itaque quas reiciendis omnis, quia quo ad doloremque rem hic nulla perferendis? Neque, maiores quaerat voluptate temporibus molestias explicabo similique! Odit, beatae? Illum?
+            Sit, quis officiis quaerat animi asperiores, iste iure expedita maiores autem necessitatibus laborum velit reiciendis fuga. Minus mollitia deserunt in porro quaerat vitae consectetur unde, ipsam facere necessitatibus blanditiis quidem.</p>
+            
+        </main>
+
+        <br>
+
+        <div id="grilla">
+
+            <div id="foto1">
+                <img src="../images/Sfiha.png" alt="">
+            </div>
+            
+            <div id="foto2">
+                <img src="../images/Kebbe.png" alt="">
+            </div>
+
+            <div id="foto3">
+                <img src="../images/Falafel.png" alt="">
+            </div>
+
+            <div id="foto4">
+                <img src="../images/Humus.png" alt="">
+            </div>
+
+
+
+
+        </div>
+
+
+       <!--pie de pagina-->
+       <footer>our telephone number</footer>
+
+    </body>
+
+</html>
